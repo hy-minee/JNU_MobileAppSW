@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="배경색"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:title="빨강색"
+                android:id="@+id/red"
+                app:showAsAction="never"/>
+            <item
+                android:title="초록색"
+                android:id="@+id/green"
+                app:showAsAction="never"/>
+            <item
+                android:title="파란색"
+                android:id="@+id/blue"
+                app:showAsAction="never"/>
+            <item
+                android:title="검은색"
+                android:id="@+id/black"
+                app:showAsAction="never"/>
+            <item
+                android:title="흰색"
+                android:id="@+id/white"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
